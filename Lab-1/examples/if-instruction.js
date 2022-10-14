@@ -9,8 +9,8 @@ if (warunek) {
     console.log(`Zmienna a = ${a} poza zakresem!`)
 }
 /**
- * Czy zmienna jest typu string i ma co najmniej 2 znaki
- * do imienia przypisz rózne wartość: udefined, null, "", 2 lub jakieś imię
+ * Czy zmienna jest typu string i ma co najmniej 2 znaki?
+ * Do imienia przypisz rózne wartość: udefined, null, "", 2 lub jakieś imię
  */
 let firstName
 if (firstName && firstName.length >= 2) {
@@ -24,7 +24,7 @@ if (firstName && firstName.length >= 2) {
  */
 let counter = "1"
 if (typeof counter === 'number' && counter) {
-    console.log('Liczba rózna od zera')
+    console.log('Liczba różna od zera')
 } else {
     console.log('To nie jest liczba, lub jest to liczba równa zero')
 }
