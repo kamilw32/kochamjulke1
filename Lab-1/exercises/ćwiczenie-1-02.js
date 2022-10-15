@@ -13,4 +13,12 @@ let triangle = '';
 /*
     Wpisz kod zadania w miejscu tego komentarza.
 */
+for (let a = 0; a < height; a++) {
+
+    for (let b = 0; b <= a; b++) {
+        triangle += "#"
+    }
+    triangle += "\n"
+}
+
 console.log(triangle);
